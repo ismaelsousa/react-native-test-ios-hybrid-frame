@@ -1,0 +1,13 @@
+{
+  "name": "react-native-test",
+  "private": true,
+  "scripts": {
+    "build": "npm --prefix packages/react-native-test run build",
+    "codegen": "npm --prefix packages/react-native-test run codegen",
+    "release": "npm --prefix packages/react-native-test run release"
+  },
+  "workspaces": [
+    "packages/*",
+    "example"
+  ]
+}
